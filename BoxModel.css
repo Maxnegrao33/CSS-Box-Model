@@ -1,0 +1,39 @@
+/* BoxModel */
+
+* Fundamental para fazer layout para a web.
+* Maior facilidade para aplicar o CSS.
+
+## O que é?
+    Uma caixa retangular.
+    Podem existir caixas dentro de caixas
+    Esta caixa possui propriedades de uma caixa (2D)
+    Caixas possuem bordas e conteúdos (Preenchimento interno)
+    Possui um espaço em torno dela.
+
+- Tamanho (largura * altura)     width | height
+- Conteúdo                       content
+- Bordas                         border
+- Preenchimento Interno          padding
+- Espaços fora da caixa          margin
+
+* Cada elemento na sua página, será considerado uma caixa
+
+
+/* Box Sizing*/
+Como será calculado o tamanho total da caixa
+- content-box | border-box
+
+'''css
+div {
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px;
+}
+
